@@ -22,7 +22,7 @@ app = FastAPI()
 # Define the SimulationParams model to validate incoming data
 class SimulationParams(BaseModel):
     current_inventory: int
-    daily_usage: int
+    daily_usage: intP
     reorder_point: int
     order_quantity: int
     lead_time: int
